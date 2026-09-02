@@ -1008,8 +1008,8 @@
       }
     },
     "vercel": {
-      "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6",
-      "version": "0.48.1",
+      "sha": "7b0a6f61b254b0149bb644cadfb588a5c46df0c2",
+      "version": "0.48.2",
       "components": {
         "agents": [
           {
@@ -1069,7 +1069,7 @@
           },
           {
             "name": "ai-gateway",
-            "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
+            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, BYOK, budgets, spend reporti…"
           },
           {
             "name": "ai-sdk",
@@ -1110,6 +1110,10 @@
           {
             "name": "eve",
             "description": "eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging a…"
+          },
+          {
+            "name": "flags-sdk",
+            "description": "Flags SDK and Vercel Flags expert guidance. Use when declaring feature flags with flag(), wiring provider adapters (Ver…"
           },
           {
             "name": "knowledge-update",
@@ -1189,7 +1193,7 @@
           },
           {
             "name": "vercel-storage",
-            "description": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when ch…"
+            "description": "Vercel storage expert guidance — Blob, Global Config (formerly Edge Config), and Marketplace storage (Neon Postgres, Up…"
           },
           {
             "name": "verification",
