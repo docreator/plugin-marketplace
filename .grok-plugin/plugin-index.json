@@ -224,8 +224,8 @@
       }
     },
     "figma": {
-      "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3",
-      "version": "2.2.96",
+      "sha": "ae7e5e5f80da20f1dd7445e0c6ae5ac58a5b0bce",
+      "version": "2.2.107",
       "components": {
         "mcpServers": [
           {
@@ -259,8 +259,16 @@
             "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variable…"
           },
           {
+            "name": "figma-generative-plugins",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_generative_plugin` or `update_generative_plugin`. U…"
+          },
+          {
             "name": "figma-implement-motion",
             "description": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion f…"
+          },
+          {
+            "name": "figma-shaders",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks…"
           },
           {
             "name": "figma-swiftui",
