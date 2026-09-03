@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "Unitpost": {
+      "sha": "13d46cf62515a5e983d54d00ab8b60c5b821daba",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "unitpost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "unitpost",
+            "description": "Use when sending transactional or marketing email; managing contacts, segments, topics, templates, Brand Kit (on-brand…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
@@ -1011,23 +1028,6 @@
           {
             "name": "tinyfish-web",
             "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
-          }
-        ]
-      }
-    },
-    "unitpost": {
-      "sha": "13d46cf62515a5e983d54d00ab8b60c5b821daba",
-      "components": {
-        "mcpServers": [
-          {
-            "name": "unitpost",
-            "description": "http"
-          }
-        ],
-        "skills": [
-          {
-            "name": "unitpost",
-            "description": "Use when sending transactional or marketing email; managing contacts, segments, topics, templates, Brand Kit (on-brand…"
           }
         ]
       }
